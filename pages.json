@@ -1,0 +1,42 @@
+{
+  "pages": [
+    {
+      "path": "pages/home/home",
+      "style": {
+        "navigationBarTitleText": "Smart Watch",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/data/data",
+      "style": {
+        "navigationBarTitleText": "数据趋势",
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "globalStyle": {
+    "backgroundColor": "#e0f7e9",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#2e8b57",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "主页",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home-active.png"
+      },
+      {
+        "pagePath": "pages/data/data",
+        "text": "数据",
+        "iconPath": "static/data.png",
+        "selectedIconPath": "static/data-active.png"
+      }
+    ]
+  }
+}
