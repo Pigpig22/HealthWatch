@@ -71,6 +71,7 @@
         </view>
       </view>
 
+	  
       <view class="history-section">
         <view class="history-header">
           <text class="history-title">历史记录</text>
