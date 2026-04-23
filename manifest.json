@@ -19,7 +19,8 @@
         /* 模块配置 */
         "modules" : {
             "Bluetooth" : {},
-            "Geolocation" : {}
+            "Geolocation" : {},
+            "Phone" : {}
         },
         /* 应用发布信息 */
         "distribute" : {
@@ -44,11 +45,16 @@
                     "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
                     "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
                     "<uses-feature android:name=\"android.hardware.camera\"/>",
-                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>"
                 ]
             },
             /* ios打包配置 */
-            "ios" : {},
+            "ios" : {
+                "privacyDescription" : {
+                    "NSContactsUsageDescription" : "用于紧急联系人功能"
+                }
+            },
             /* SDK配置 */
             "sdkConfigs" : {
                 "geolocation" : {
