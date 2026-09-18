@@ -39,14 +39,14 @@ HealthWatch 面向可穿戴设备、个人健康监护与传感器实验场景�
 
 <table>
   <tr>
+    <td align="center"><strong>应用界面</strong></td>
     <td align="center"><strong>设备与实时指标</strong></td>
     <td align="center"><strong>趋势与历史记录</strong></td>
-    <td align="center"><strong>应用界面</strong></td>
   </tr>
   <tr>
+    <td><img src="https://github.com/user-attachments/assets/47933d50-a19c-4d27-b3f2-8176393a7226" width="250" alt="HealthWatch 应用界面"></td>
     <td><img src="https://github.com/user-attachments/assets/1fbe43cc-2575-4b32-8ab9-e515679d79d6" width="250" alt="HealthWatch 设备与实时指标界面"></td>
     <td><img src="https://github.com/user-attachments/assets/e4611550-c8bd-4628-8f63-3ffc7acb44d2" width="250" alt="HealthWatch 数据趋势界面"></td>
-    <td><img src="https://github.com/user-attachments/assets/47933d50-a19c-4d27-b3f2-8176393a7226" width="250" alt="HealthWatch 应用界面"></td>
   </tr>
 </table>
 
