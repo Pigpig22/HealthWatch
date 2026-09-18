@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 使用说明与设备协议
+    url: https://github.com/Pigpig22/HealthWatch/blob/main/docs/DEVICE_PROTOCOL.md
+    about: 提交问题前请先核对设备名、UUID 与数据格式

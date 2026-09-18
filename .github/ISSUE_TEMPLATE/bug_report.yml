@@ -1,0 +1,58 @@
+name: Bug 报告
+description: 报告可复现的功能、BLE 或界面问题
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈。请勿上传真实电话号码、健康数据或其他个人信息。
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 实际发生了什么？
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. 打开……
+        2. 连接……
+        3. 点击……
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期结果
+    validations:
+      required: true
+  - type: input
+    id: phone
+    attributes:
+      label: 手机与系统
+      placeholder: "例如：Pixel 8 / Android 15"
+  - type: input
+    id: esp32
+    attributes:
+      label: ESP32 与固件环境
+      placeholder: "例如：ESP32-S3 / Arduino Core 3.x / NimBLE"
+  - type: dropdown
+    id: area
+    attributes:
+      label: 问题模块
+      options:
+        - BLE 扫描或连接
+        - 实时数据解析
+        - 趋势图或历史记录
+        - 紧急联系人或拨号
+        - 权限或打包
+        - 其他
+  - type: textarea
+    id: logs
+    attributes:
+      label: 脱敏日志或截图
+      description: 请删除设备地址、电话号码和健康数据。
